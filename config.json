@@ -1,0 +1,33 @@
+{
+  "_comment": "Only put settings here that you want to change. Everything else uses the defaults built into make_videos.py.",
+
+  "batch_file": "Batch.md",
+  "backgrounds_dir": "backgrounds",
+  "music_dir": "B:/Automation/_resources/music",
+  "output_dir": "output",
+
+  "tts": {
+    "engine": "piper",
+    "piper_model": "B:/Automation/_resources/voices/en_US-mike-medium.onnx"
+  },
+
+  "voice_speed": 0.9,
+  "pause": 1.0,
+  "reference_pause": 1.0,
+  "speak_reference": true,
+  "show_translation": false,
+  "pronunciations": {},
+
+  "music": {
+    "relative_volume": 0.5,
+    "duck": true
+  },
+
+  "clips": {
+    "pattern": [4, 4, 4, 8],
+    "zoom_max": 1.15,
+    "transition_duration": 0.6
+  },
+
+  "image_slow_zoom": false
+}
